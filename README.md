@@ -3,7 +3,7 @@
 Install at your own risk
 
 * s3cmd 1.6
-* cerebro 0.8.5 (from https://github.com/lmenezes/cerebro)
+* cerebro 0.9.2 (from https://github.com/lmenezes/cerebro)
 
 ## How do I install these formulae?
 ```
