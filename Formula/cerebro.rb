@@ -4,7 +4,7 @@ class Cerebro < Formula
   url "https://github.com/lmenezes/cerebro/releases/download/v0.9.2/cerebro-0.9.2.tgz"
   sha256 "aa7663813a72be40a5b285fea6c9aa4df0a09b663eb1133506fccb67fb832c66"
 
-  depends_on :java => "1.8"
+  depends_on "openjdk@8"
 
   def install
     # Remove Windows files
