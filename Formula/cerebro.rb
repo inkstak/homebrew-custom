@@ -1,10 +1,10 @@
 class Cerebro < Formula
   desc "cerebro is an open source(MIT License) elasticsearch web admin tool built using Scala, Play Framework, AngularJS and Bootstrap."
   homepage "https://github.com/lmenezes/cerebro"
-  url "https://github.com/lmenezes/cerebro/releases/download/v0.9.2/cerebro-0.9.2.tgz"
-  sha256 "aa7663813a72be40a5b285fea6c9aa4df0a09b663eb1133506fccb67fb832c66"
+  url "https://github.com/lmenezes/cerebro/releases/download/v0.9.4/cerebro-0.9.4.tgz"
+  sha256 "c17f4abaaa7eb7d32c71ba17effc9995f3a96ee7cf10f4bfc929537df6430710"
 
-  depends_on "openjdk@8"
+  depends_on "openjdk"
 
   def install
     # Remove Windows files
